@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Interior Design using AR</string>
+    <string name="about">This app was developed as part of a Final Year Project by Irfan Bashir, under the guidance of Prof. Daniel Haneef. The aim of this project is to integrate technology with creativity, allowing users to explore interior design possibilities through the power of Augmented Reality (AR)</string>
+    <string name="about_cc">Copyright © 2025 . \nAll right reserved </string>
+    <string name="version">1.5.0</string>
+</resources>
+

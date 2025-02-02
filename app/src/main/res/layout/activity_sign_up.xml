@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/jalnan"
+            android:textColor="@color/darkbrown"
+            android:textSize="50dp"
+            android:gravity="center" />
+
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/login_box"
+            android:layout_marginTop="40dp"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Name"
+                android:background="@drawable/login_text_background"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:paddingLeft="18dp"
+                android:textSize="11dp"
+                android:textColor="@color/darkbrown" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Email"
+                android:background="@drawable/login_text_background"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:paddingLeft="18dp"
+                android:textSize="11dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/darkbrown" />
+
+            <EditText
+                android:id="@+id/pwText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Password"
+                android:background="@drawable/login_text_background"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:paddingLeft="18dp"
+                android:password="true"
+                android:textSize="11dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/darkbrown" />
+
+            <EditText
+                android:id="@+id/signUpPwCheck"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Retype Password"
+                android:background="@drawable/login_text_background"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:paddingLeft="18dp"
+                android:password="true"
+                android:textSize="11dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/darkbrown" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Sign Up"
+                android:background="@drawable/button_back1"
+                android:layout_marginTop="28dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:text="Already have account ?"
+            android:background="@drawable/button_transparent"
+            android:textColor="@color/white"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+</ScrollView>

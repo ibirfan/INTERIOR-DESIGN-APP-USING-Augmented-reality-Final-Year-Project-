@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/scrollView"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Design with AI"
+            android:textColor="@color/darkbrown"
+            android:textSize="24sp"
+            android:fontFamily="@font/jalnan"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Room Type:"
+            android:textSize="16sp"
+            android:textColor="@color/darkbrown"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_bedroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bedroom"
+                android:textSize="14sp"
+                android:fontFamily="@font/gmarketsansmedium" />
+
+            <CheckBox
+                android:id="@+id/checkbox_livingroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Living Room"
+                android:textSize="14sp"
+                android:fontFamily="@font/gmarketsansmedium" />
+
+            <CheckBox
+                android:id="@+id/checkbox_kitchen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kitchen"
+                android:textSize="14sp"
+                android:fontFamily="@font/gmarketsansmedium" />
+
+            <CheckBox
+                android:id="@+id/checkbox_bathroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bathroom"
+                android:textSize="14sp"
+                android:fontFamily="@font/gmarketsansmedium" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Room Dimensions (in feet):"
+            android:textSize="16sp"
+            android:textColor="@color/darkbrown"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/input_length"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Length"
+                android:inputType="numberDecimal"
+                android:background="@drawable/login_text_background"
+                android:padding="8dp"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/darkbrown"
+                android:layout_marginHorizontal="8dp" />
+
+            <EditText
+                android:id="@+id/input_width"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Width"
+                android:inputType="numberDecimal"
+                android:background="@drawable/login_text_background"
+                android:padding="8dp"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Style Preferences:"
+            android:textSize="16sp"
+            android:textColor="@color/darkbrown"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_modern"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modern"
+                android:textSize="14sp"
+                android:fontFamily="@font/gmarketsansmedium" />
+
+            <CheckBox
+                android:id="@+id/checkbox_rustic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rustic"
+                android:textSize="14sp"
+                android:fontFamily="@font/gmarketsansmedium" />
+
+            <CheckBox
+                android:id="@+id/checkbox_minimalist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minimalist"
+                android:textSize="14sp"
+                android:fontFamily="@font/gmarketsansmedium" />
+
+            <CheckBox
+                android:id="@+id/checkbox_classic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Classic"
+                android:textSize="14sp"
+                android:fontFamily="@font/gmarketsansmedium" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/generateSuggestionsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Suggestions"
+            android:textSize="16sp"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:textColor="@color/white"
+            android:background="@drawable/button_back1"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            android:id="@+id/suggestionsOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:fontFamily="@font/gmarketsansmedium"
+            android:textColor="@color/darkbrown"
+            android:padding="16dp"
+            android:background="#f4f4f4"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

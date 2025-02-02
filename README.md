@@ -1,2 +1,5 @@
-# INTERIOR-DESIGN-APP-USING-Augmented-reality-Final-Year-Project-
-The application is an interactive AR tool focused on living room furniture. Users need a device with a camera to install and launch the app, point it at the living room, and capture an image as a tracking pattern. They can then select furniture from a list, overlaying it onto the room.
+# Interior-design-app-using-AR
+It is an application which the furniture and furnishings will develop in three dimensional surface of object and present by using augmented reality. It is the application that can be use in the mobile phones, tab and etc. especially using Android platform to choose furniture that suitable for their house.
+
+Check my blog also to get all information about project 
+https://medium.com/@gansawant07/interior-design-app-using-ar-6957cecdf1da

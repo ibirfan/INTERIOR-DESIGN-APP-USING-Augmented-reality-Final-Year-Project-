@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "675962026321",
+    "project_id": "irfanfyp-e9d97",
+    "storage_bucket": "irfanfyp-e9d97.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675962026321:android:afb794fd0f4974d3407b70",
+        "android_client_info": {
+          "package_name": "com.irfan.fyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBauY3RRng2IbuzGYP2-g3iDwmM76thKgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
